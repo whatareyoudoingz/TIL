@@ -80,3 +80,27 @@ else:
             lis.append(a)
     lis.append(number)
     print(sum(lis))
+
+##풀이 3
+n =int(input("양의 정수를 입력하세요 > "))
+
+if n<0:
+    print(-1)
+else:
+    result=0
+    while n>0:
+    n//=10
+    answer+= n%10
+
+    print(answer)
+
+##풀이 4
+n=input()
+
+if n<0:
+    print(-1)
+else:
+    result=0
+    for i in n:
+        result+=int(i)
+    print(result)
