@@ -6,4 +6,4 @@
 화이팅!!!
 
 ## 프로젝트 내용
-[가이드라인](projects/project1/프로젝트 가이드.md)
+[가이드라인](https://github.com/whatareyoudoingz/TIL/blob/master/projects/project1/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
