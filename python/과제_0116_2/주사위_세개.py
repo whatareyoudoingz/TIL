@@ -5,7 +5,7 @@ n2=a==c
 n3=b==c
 total=n1+n2+n3
 if total == 3:
-    print(10000+a*1000)
+        print(10000+a*1000)
 elif total == 1:
 	if a==b or a==c:
         print(1000+a*100)
