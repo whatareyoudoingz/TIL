@@ -1,7 +1,11 @@
 import sys
 sys.stdin = open("input.txt", "r")
 
-a=int(input())
-for _ in range(a):
-    b,c=map(int,input().split(','))
-    print(b+c)
+N,X=map(int,input().split())
+A=list(map(int,input().split()))
+
+for e in A:
+    if e>=X:
+        A.remove(int(e))
+print(*A)
+
