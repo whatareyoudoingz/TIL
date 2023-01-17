@@ -1,32 +1,24 @@
 import sys
 sys.stdin = open("input.txt", "r")
 
-def han(a):
-    global result
 
-    a=list(str(i))
-    if len(a)==1 or len(a)==2:
-        result+=1
-    for j in range(len(a)):
-        if j==len(a)-1:
-            a.remove(a[-1]) 
-        else:
-            a[j]=int(a[j+1])-int(a[j])
+lis_x=[]
+lis_y=[]
 
-    for k in range(len(a)):
-        if k == len(a)-1 or a[k+1]!=a[k]:
-            break
-        result+=1
-    return result
+for _ in range(3):
+    a,b=input().split()
+    lis_x.append(a)
+    lis_y.append(b)
 
-
-x=int(input())
-result=0
-for i in range(1,x+1):
-    han(i)
-print(result)
+for k in lis_x:
+    if lis_x.count(k)<2:
+        x=k
+for q in lis_y:
+    if lis_y.count(q)<2:
+        y=q
+print(x,y)
 
 
-
-	
-
+    
+        
+    
