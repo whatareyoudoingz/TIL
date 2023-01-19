@@ -28,8 +28,8 @@ for i in range(len(s)//10+1):
 # 나무조각
 s=list(map(int,input().split()))
 while s != sorted(s):
-    for i in range(1,len(s)): # 5개의 개수만큼 반복  
-        if s[i]<s[i-1]: #i-1번째 수가 i번째 수보다 크다 면  
+    for i in range(1,len(s)): # s의 개수만큼 반복  
+        if s[i]<s[i-1]: #i-1번째 수가 i번째 수보다 크다면  
             last=s[i-1] #i-1번째 수 저장 
             s[i-1]=s[i] # i-1번째 수와 i번째 수 바꿈 
             s[i]=last 
