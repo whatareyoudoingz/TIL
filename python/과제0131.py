@@ -94,6 +94,26 @@ for _ in range(int(input())):
             box_checker(m)
     print(result)
 
+## 강사님 풀이
+for _ in range(int(input())):
+    m, n = map(int, input().split())
+    box = [input().split() for _ in range(m)]
+    move_dis=0
+    for x in range(n):
+        for y in reversed(range(m)):
+            if grid[y][x]==1:
+                while True:
+                    if y+1 ==m:
+                        break
+                    if grid[y+1][x]==1:
+                        break
+
+                    grid[y][x]=0
+                    grid[y+1][x]=0
+                    move_dis+=1
+                    y+=1
+print(move_dis)
+
 ## 다른 분 풀이 (최충현 님)
 for _ in range(int(input())):
     m, n = map(int, input().split())
@@ -109,48 +129,40 @@ for _ in range(int(input())):
     print(move_box)
 
 # 누울 자리를 찾아라
-
 T=int(input())
 room=[list(input()) for _ in range(T)]
-total=0
-
+width,length=0,0
 # 가로부터 체크
-room1=room
 for i in range(T):
-    a=0
+    a=0 #연속 공실 카운트
     for j in range(T):
-        if room1[i][j]=='.' : # 빈방이면
-            if j==0: # 처음이면 계속
-                continue
-            else: #아니면 길이 체크 (변수 a) 후 0으로 공실 만들어주기
+        #빈방이고 길이 체크 (변수 a) 후 0으로 공실 만들어주기
+        if room[i][j]=='.' :  
                 a+=1
-                room1[i][j]=0
-        else: # 빈방이 아니면
-            if a != 1: # 길이가 1이 아니면 카운트
-                total+=1
-            else: # 길이가 1이면 카운트 제외
-                a=0
-print(room1)
-print(total)
+        elif room[i][j]=='X': # 빈방이 아니면
+            if a > 1: # 길이가 1이 아니면 카운트
+                width+=1
+            a=0
+        if j==T-1:
+            if a > 1: # 길이가 1이 아니면 카운트
+                width+=1
 
 # 세로부터 체크
-room2=room
 for j in range(T):
-    a=0
+    a=0 #연속 공실 카운트
     for i in range(T):
-        if room1[i][j]=='.' : # 빈방이면
-            if j==0: # 처음이면 계속
-                continue
-            else:
+        #빈방이고 길이 체크 (변수 a) 후 0으로 공실 만들어주기
+        if room[i][j]=='.' :  
                 a+=1
-                room1[i][j]=0
-        else:
-            if a != 1:
-                total+=1
-            else:
-                a=0
-print(room2)
-print(total)
+                room[i][j]=0
+        elif room[i][j]=='X': # 빈방이 아니면
+            if a > 1: # 길이가 1이 아니면 카운트
+                length+=1
+            a=0
+        if i==T-1:
+            if a > 1: # 길이가 1이 아니면 카운트
+                length+=1
+print(width, length)
 
 ## 다른 분 풀이 (전성재 님)
 N = int(input())
