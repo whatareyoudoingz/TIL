@@ -84,7 +84,7 @@
 
 ## **Day30** - 2023.02.02
 - [데이터베이스 이론(MYSQL, 관계형 데이터베이스, RDBMS)](records/0208_데이터베이스1.md)
-- [데이터베이스 설치(MYSQL, MYSQL Workbench](records/0208_MySQL+MySQL_Workbench_설치.md)
+- [데이터베이스 설치&사용(MYSQL, MYSQL Workbench](records/0208_MySQL+MySQL_Workbench_설치.md)
 
 ## **[Day31~Day33](records/0209.md)** - 2023.02.09~2023.02.13
 - 데이터베이스_단일 테이블 쿼리

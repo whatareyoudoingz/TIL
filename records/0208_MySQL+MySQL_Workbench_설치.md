@@ -33,6 +33,7 @@ https://downloads.mysql.com/archives/workbench/
 
 ## mysql 서버 종료
 - `mysql.server stop`  => Shutting down MySQL SUCCESS! 화면 확인
+
 <br/>
 
 # MySQL Workbench 활용법
@@ -51,6 +52,17 @@ https://downloads.mysql.com/archives/workbench/
 https://hyper-growth.notion.site/MySQL-6af14bcbda94447f8dbe29a308985dc5#62454955734f4b78b510e8d0e4b5df8e
 https://dev.mysql.com/doc/workbench/en/wb-preferences-sql-editor.html
 
+<br/>
+
+## **평소 데이터베이스 작업시**
+> mysql 서버 실행
+- `mysql.server start`
+> mysql workbench 실행
+
+> mysql workbench 종료
+
+> mysql 서버 종료
+- `mysql.server stop`
 
 
 
