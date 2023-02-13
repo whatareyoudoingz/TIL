@@ -32,7 +32,7 @@ https://downloads.mysql.com/archives/workbench/
 <br/>
 
 ## mysql 서버 종료
-- `mysql.server.stop`  => Shutting down MySQL SUCCESS! 화면 확인
+- `mysql.server stop`  => Shutting down MySQL SUCCESS! 화면 확인
 <br/>
 
 # MySQL Workbench 활용법
@@ -48,7 +48,8 @@ https://downloads.mysql.com/archives/workbench/
 1. 데이터베이스 선택
 2. `Query` 에디터 선택
 3. 퀴리문 작성 및 실행
-
+https://hyper-growth.notion.site/MySQL-6af14bcbda94447f8dbe29a308985dc5#62454955734f4b78b510e8d0e4b5df8e
+https://dev.mysql.com/doc/workbench/en/wb-preferences-sql-editor.html
 
 
 
