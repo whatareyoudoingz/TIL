@@ -82,7 +82,7 @@
 ## **[Day28](records/0206.md)** - 2023.02.06
 - 그래프 탐색 알고리즘
 
-## **Day30** - 2023.02.02
+## **Day30** - 2023.02.08
 - [데이터베이스 이론(MYSQL, 관계형 데이터베이스, RDBMS)](records/0208_데이터베이스1.md)
 - [데이터베이스 설치&사용(MYSQL, MYSQL Workbench](records/0208_MySQL+MySQL_Workbench_설치.md)
 
