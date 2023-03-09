@@ -1,0 +1,43 @@
+* {
+    font-family : "Malgun Gothic", Gulim, Dotum, Gungsuh, sans-serif; 
+    font-weight : bold;
+}
+
+.red > span {
+    color : red;
+}
+p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+h3 {
+    width: 650px;
+    color : darkgray;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.box1 {
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    width: 650px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box2 {
+    width: 550px;
+    padding: 20px;
+    padding-top: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,55 @@
+.box1 {
+    border-style: solid;
+    border-color : green;
+    border-width: 1px;
+    color: black;
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Cafe24Ssurround';
+}
+
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {    
+    font-family: 'Dovemayo_gothic';
+}
+
+@font-face {
+    font-family: 'WandohopeR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+h1 {    
+    font-family: 'WandohopeR';
+    color: green;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+

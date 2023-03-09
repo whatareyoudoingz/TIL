@@ -1,0 +1,19 @@
+* {
+    font-family : "Malgun Gothic", Gulim, Dotum, Gungsuh, sans-serif; 
+}
+.blue {
+    color : darkgray;
+}
+
+.red > span {
+    color : red;
+    font-weight: bold;
+}
+
+.parent > li > a {
+    color: darkorange;
+}
+
+.parent2 > li > a {
+    color: purple;
+}
