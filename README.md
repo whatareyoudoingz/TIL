@@ -92,3 +92,12 @@
     - Sorting data
     - Filtering data
     - Grouping data
+
+## **[Day34~Day39]** - 2023.02.14~2023.02.21
+- 데이터베이스
+
+## **[Day40~Day51]** - 2023.02.22~2023.03.10
+- HTML&CSS
+
+## **[Day52]** - 2023.02.13
+- JAVASCRIPT
